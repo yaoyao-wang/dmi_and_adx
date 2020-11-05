@@ -1,4 +1,5 @@
 # dmi_and_adx
+
 ## 1. What is the DMI and ADX?
 
 The indicator is made up for three lines.
@@ -104,6 +105,7 @@ strategy("Yaonology DMI and ADX Indicators Tutorial", overlay=false, default_qty
 
 ### · Step Three: Plotting
 (1) Step Three Plot is the step that we plot the three lines on the main chart series.
+
 (2) The plot function can plot a series of data on the chart.“Color equals color.green” means that we plot “diplus” as a green color. And we plot the dimius as red and adx as black.
 
 ```
@@ -144,6 +146,7 @@ if crossunder(diplus, diminus)
   strategy.close("dmi")
 ```
 (10)  Here, we click the “Add to chart” to run the backtesting report.
+
 (11) The net profit is positive 191.69%, which means that this DMIstrategy can make a profit. 
 
 |  | **Net Profit** | **Precent Profitable** | **Profit Factor** | **Max Drawdown** | 
@@ -166,7 +169,9 @@ if diplus < diminus
   strategy.close("dmi")
 ```
 (3) We click the “Add to chart” to run the backtesting report.
+
 (4) The net profit is 88.02%, which is much smaller than the DMI Strategy.But the Max Drawdown is 12.79%, which is much lower than DMI Strategy.
+
 (5) Therefore, the DMI Strategy can make higher profit than ADX and DMI Strategy but have higher risk.
 
 |  | **Net Profit** | **Precent Profitable** | **Profit Factor** | **Max Drawdown** | 
