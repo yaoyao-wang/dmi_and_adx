@@ -1,4 +1,4 @@
-//version = 4
+//@version = 4
 //Step One: Initial Setting
 strategy("Yaonology DMI and ADX Indicators Tutorial", overlay=false, default_qty_type = strategy.percent_of_equity, default_qty_value = 100, currency = currency.USD, initial_capital = 10000, commission_type = strategy.commission.percent, commission_value = 0)
 
