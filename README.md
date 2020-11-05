@@ -1,4 +1,4 @@
-# dmi_and_adx
+# DMI and ADX
 
 ## 1. What is the DMI and ADX?
 
