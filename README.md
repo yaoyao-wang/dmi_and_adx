@@ -39,7 +39,7 @@ If it is smaller than 15, it shows no trend.
 
 When the ADX turns down from high values, then the trend may be ending.
 
-![](ADX_Trend_Strength.png)
+![](image/ADX_Trend_Strength.png)
 
 ## 3.  Relative DMI and ADX Strategy
 
