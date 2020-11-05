@@ -1,5 +1,5 @@
 # dmi_and_adx
-## 1. What is What is the DMI and ADX?
+## 1. What is the DMI and ADX?
 
 The indicator is made up for three lines.
 
